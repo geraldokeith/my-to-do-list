@@ -105,6 +105,7 @@ ul li{
     list-style: none;
     cursor: pointer;
     border: 0.125px solid #ccc;
+    color: #fff;
     margin-block-end: 8px;
     border-radius: 4px;
     padding: 7px 12px;
@@ -118,6 +119,7 @@ ul li{
 ul li.checked {
     color: #e00c0c;
     text-decoration: line-through;
+    text-decoration: wavy;
 }
 
 li:hover{
@@ -146,5 +148,5 @@ li p {
     color: rgb(6, 79, 236);
 }
 .doneBtn{
-    color: rgb(3, 180, 3);
+    color: rgb(245, 248, 245);
 }
